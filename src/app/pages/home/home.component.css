@@ -1,0 +1,5 @@
+.content{
+    background: linear-gradient(45deg, rgb(49,49,49) 25%, rgb(35,35,35) 25%, rgb(35,35,35) 75%, rgb(49,49,49) 75%);
+    background-size: 4px 4px;
+    height: 100vh;
+}
