@@ -1,15 +1,15 @@
-footer{
+footer .developed{
     background-color: black;
     width: 100%;
-    height: 50px;
+    height: 30px;
 }
-p, a{
+.developed p, a{
     color: blueviolet;
-    font-family: 'roboto';
-    font-size: 18px;
+    font-family: 'Roboto Slab';
+    font-size: 14px;
     margin-left:  5px;
 }
-a:hover{
+.developed a:hover{
     text-shadow: #fff 0 0 10px;
     color: #fff;
    

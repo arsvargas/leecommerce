@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Frank+Ruhl+Libre:wght@300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,500;1,600;1,700;1,800&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+@font-face{
+    font-family: 'Pattanakarn Regular';
+    src: local('Pattanakarn Regular'), url('../../leecommerce/src/assets/fonts/FontsFree-Net-Pattanakarn-Regular.ttf');
+}
+
+
 *{
     list-style: none;
     outline: 0;
@@ -9,6 +15,7 @@
     scroll-behavior: smooth;
     box-sizing: border-box;
     transition: .5s;
+    font-family: 'Pattanakarn Regular';
 }
 .column{
     display: flex;
@@ -27,4 +34,32 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+.left, .right{
+    width: 40vw;
+}
+.background{
+    background: linear-gradient(45deg, rgb(7, 7, 7) 25%, rgb(35,35,35) 25%, rgb(35,35,35) 75%, rgb(7,7,7) 75%);
+    background-size: 4px 4px;
+}
+.color-background{
+    background-image: -webkit-linear-gradient(0deg, rgb(136,62,230), rgb(25,131,223), rgb(136,62,230));
+    padding: 80px 0;
+    width: 100%;
+}
+.line{
+    background-image: -webkit-linear-gradient(0deg, rgb(184, 126, 255), rgb(25,131,223), rgb(184, 126, 255));
+    height: 5px;
+    width: 100%;
+}
+button{
+    border: none;
+}
+button:hover{
+    transform: scale(1.1);
+    transition: .3s;
+    cursor: pointer;
+}
+button:active{
+    transform: translateY(4px);
 }
