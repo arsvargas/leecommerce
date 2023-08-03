@@ -1,0 +1,105 @@
+.banner-3{
+    background-image: url(../../../assets/images/Banner-1.jpg);
+    padding: 0;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+.banner-in{
+    background-image: url(../../../assets/images/color-transparent.png);
+    padding: 150px 0;
+    width: 100vw;
+    background-size: cover;
+    background-position: 20%;
+}
+p{
+    font-size: 26px;
+    font-family: 'Open Sans', cursive;
+    color: #fff;
+    width: 80%;
+    margin: 20px;
+    font-weight: 600;
+    text-shadow: #000000 0px 0px 13px;
+}
+.right{
+    align-items: center;
+    
+}
+.content{
+    background-image: url(../../../assets/images/whiteNote.png);
+    background-size: cover;
+    padding: 10px;
+    width: 30vw;
+    height: 30vw;
+}
+.content-in{
+    width: 80%;
+    transform: rotate(10deg);
+    height: 20vw;
+    justify-content: space-evenly;
+}
+h3{
+    background-color: #44C4F1;
+    width: 100%;
+    color: #fff;
+    font-family: 'changa one';
+    text-align: center;
+    padding: 8px 0;
+    font-size: 1.3vw;
+}
+h1{
+    letter-spacing: 2px;
+    font-size: 3vw;
+}
+h4{
+    background-color: #44C4F1;
+    width: 100%;
+    color: #fff;
+    font-family: 'open sans';
+    text-align: center;
+    padding: 8px 0;
+    font-size: 0.9vw;
+    letter-spacing: -1px;
+}
+img#logo{
+    width: 20vw;
+}
+button{
+    padding: 15px 30px;
+    font-size: 19px;
+    border-radius: 15px;
+    color: #fff;
+    background-color: rgb(25,131,223);
+}
+button:hover{
+    background-color: blueviolet;
+}
+@media screen and (max-width:745px){
+    .banner-in{
+    background-position: 109%;
+}
+.content{
+    width: 75vw;
+    height: 75vw;
+}
+.content-in{
+    width: 55vw;
+    height: 58vw;
+}
+h3{
+    font-size: 3vw;
+}
+h1{
+    font-size: 8vw;
+    white-space: nowrap;
+}
+h4{
+    font-size: 2.5vw;
+}
+img#logo{
+    width: 80vw;
+}
+button{
+    margin-top: 30px;
+}
+}
