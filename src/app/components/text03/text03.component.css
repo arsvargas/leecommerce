@@ -69,10 +69,10 @@ button{
     font-size: 19px;
     border-radius: 15px;
     color: #fff;
-    background-color: rgb(25,131,223);
+    background-color: #44C4F1;
 }
 button:hover{
-    background-color: blueviolet;
+    background-color: #9931FF;
 }
 @media screen and (max-width:745px){
     .banner-in{

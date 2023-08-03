@@ -25,9 +25,12 @@ nav:hover {
   display: none;
 }
 
-nav img {
+nav img#home {
   cursor: pointer;
   width: 200px;
+}
+nav img#home:hover{
+  filter: drop-shadow(0px 0px 5px #9931FF);
 }
 
 ul {
@@ -43,7 +46,7 @@ li {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent; */
-  color: rgb(100, 109, 199);
+  color: #44C4F1;
   font-size: 25px;
   padding: 6px 16px;
   cursor: pointer;
@@ -53,8 +56,8 @@ li {
 }
 
 li:hover {
-  border: rgb(136, 62, 230) 2px solid;
-  color: rgb(46, 157, 199);
+  border: #9931FF 2px solid;
+  color: #44C4F1;
 }
 
 i {
@@ -65,7 +68,7 @@ i {
   .checkbtn {
     position: absolute;
     display: flex;
-    color: rgb(136, 62, 230);
+    color: #9931FF;
     font-size: 30px;
     right: 3vw;
     z-index: 2;
@@ -118,8 +121,8 @@ i {
     text-align: center;
     justify-content: center;
     border-radius: 25px;
-    border: 2px solid rgb(100, 109, 199);
-    color: rgb(46, 157, 199);
+    border: 2px solid #9931FF;
+    color: #44C4F1;
   }
 
   nav ul li:first-of-type {
@@ -141,6 +144,7 @@ i {
     height: auto;
     opacity: 1;
     position: absolute;
+    padding-bottom: 30px;
     box-shadow: rgba(0, 0, 0, 0.6) 0px 525px 114px 278px;
   }
 }
