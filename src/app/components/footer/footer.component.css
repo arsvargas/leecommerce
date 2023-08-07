@@ -113,7 +113,8 @@ footer .links{
         border-bottom: none;
     }
     footer .links{
-        padding: 40px 0;
+        padding: 40px 0;    
+        background-image: linear-gradient(to top, #9831ff33 , #00000009, #03030313, #44c3f11c );
     }
     .links .pt img{
         width: 80vw;
