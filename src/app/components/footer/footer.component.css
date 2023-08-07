@@ -1,16 +1,140 @@
-footer .developed{
+footer{
+    width: 100%;
+    font-family: 'Open Sans', cursive;
+}
+footer .links{
+    width: 100%;
+    padding: 20px;
+    background-color: #000;
+    background-image: linear-gradient(to right, #9831ff33 , #00000009, #03030313, #44c3f11c );
+}
+.pt{
+    width: 20vw;
+}
+.links .pt img{
+    width: 20vw;
+    cursor: pointer;
+}
+.pt img#footerLogo:hover{
+    filter: drop-shadow(0px 0px 5px #9931FF);
+}
+.pt li{
+    color: #fff;
+    cursor: pointer;
+    border-bottom: transparent 1px solid;
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 10px;
+    width: fit-content;
+    transition: all 0.5s;
+}
+.pt li::before{
+    content: '';
+    width: 8px;
+    height: 8px;
+    border: 2px solid #fff;
+    position: relative;
+    display: flex;
+    left: -24px;
+    top: 20px;
+    transform: rotate(45deg);
+    transition: all 0.5s;
+}
+.pt li:hover{
+    border-bottom: #fff 1px solid;
+    transform: scale(1.1);
+}
+.pt li:hover::before{
+    transform: rotate(315deg);
+    transition: all .5s;
+}
+.pt a{
+    color: #fff;
+}
+.pt h4{
+    color: #fff;
+}
+.pt h5, .pt h4{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 200;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+.pt h5{
+    margin-left: -25px;
+}
+.pt h3{
+    color: #fff;
+    text-align: center;
+}
+.squad{
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin: 0 5px;
+}
+.squad i{
+    padding: 10px;
+    font-size: 20px;
+    margin: 0 auto;
+}
+.squad:hover{
+    transform: scale(1.1);
+    background-color: #fff;
+}.squad:hover i{
+    color: #9931FF;
+}
+/* footer .developed{
     background-color: black;
     width: 100%;
     height: 30px;
 }
 .developed p, a{
-    color: blueviolet;
-    font-family: 'Roboto Slab';
+    color: #9931FF;
     font-size: 14px;
     margin-left:  5px;
+    text-align: center;
+    align-items: center;
 }
+
 .developed a:hover{
     text-shadow: #fff 0 0 10px;
     color: #fff;
    
+} */
+@media screen and (max-width:745px){
+    .pt{
+        width: 90vw;
+        margin: 15px auto;
+        border-bottom: #9831ff11 1px solid;
+        padding-bottom: 40px;
+    }
+    .pt:nth-of-type(3){
+        border-bottom: none;
+    }
+    footer .links{
+        padding: 40px 0;
+    }
+    .links .pt img{
+        width: 80vw;
+        margin: 15px auto;
+    }
+    .pt h5, .pt h4{
+        text-decoration: none;
+        font-weight: 800;
+        margin-bottom: 20px;
+    }
+    .pt h5{
+        margin: 0 auto 20px auto;
+    }
+    .pt li{
+        margin-left: 24px;
+    }
+    .squad{
+        margin: 0 10px;
+    }
+    .squad i{
+        padding: 20px;
+        font-size: 30px;
+    }
 }

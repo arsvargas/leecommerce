@@ -1,3 +1,64 @@
 .quem-somos-container{
     margin-top: 90px;
+    /* background-image: url(../../../assets/images/Banner-1.jpg); */
+    background-image: -webkit-linear-gradient(90deg, #000, #2c0f49, #000);
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.quem-somos-inner{
+    background-image: url(../../../assets/images/banner-sobre-nos.png);
+    padding: 100px 5%;
+    background-size: cover;
+    z-index: 2;
+    position: relative;
+    width: 100%;
+    align-items: flex-end;
+    background-position: 50%;
+}
+.text-box{
+    width: 40vw;
+}
+.text-box img{
+    width: 30vw;
+}
+.text-box h3, .text-box p{
+    color: #fff;
+}
+.text-box h3{
+    font-family: 'Open Sans', cursive;
+    font-size: 2vw;
+    text-shadow: #000000 0px 0px 13px;
+    text-align: center;
+    margin: 15px auto;
+}
+.text-box p{
+    font-family: 'Open Sans', cursive;
+    margin: 10px 0;
+    text-shadow: #000000 0px 0px 10px;
+    font-size: 25px;
+   
+}
+@media screen and (max-width:745px){
+    .quem-somos-container{
+        margin-top: 0;
+    }
+    .quem-somos-inner{
+        background-image: none;
+        align-items: center;
+    }
+    .text-box{
+        width: 90vw;
+    }
+    .text-box img{
+        width: 80vw;
+    }
+    .text-box h3{
+        font-size: 5vw;
+    }
+    .text-box p{
+        width: 80vw;
+    }
 }

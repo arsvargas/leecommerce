@@ -86,6 +86,11 @@ button:hover{
     width: 55vw;
     height: 58vw;
 }
+p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
 h3{
     font-size: 3vw;
 }

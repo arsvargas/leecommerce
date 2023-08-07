@@ -43,8 +43,14 @@ h1{
 .left, .right{
     width: 40vw;
 }
+.web{
+    display: flex;
+}
+.mobile{
+    display: none;
+}
 .background{
-    background: linear-gradient(45deg, rgb(7, 7, 7) 25%, rgb(35,35,35) 25%, rgb(35,35,35) 75%, rgb(7,7,7) 75%);
+    background: linear-gradient(45deg, rgb(7, 7, 7) 25%, rgb(35, 35, 35) 25%, rgb(35,35,35) 75%, rgb(7,7,7) 75%);
     background-size: 4px 4px;
 }
 .color-background{
@@ -68,11 +74,27 @@ button:hover{
 button:active{
     transform: translateY(4px);
 }
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background-image: -webkit-linear-gradient(90deg, #9931FF, #44C4F1);
+    border-radius: 5px; /* Raio da borda da alça */
+}
 @media screen and (max-width:745px){
     .row{
         flex-direction: column;
     }
     .left, .right{
         width: 90vw;
+    }
+    .web{
+        display: none;
+    }
+    .mobile{
+        display: flex;
     }
 }

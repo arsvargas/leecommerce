@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/leecommerce",
+    "public": "dist/leecommerce/browser",
     "ignore": [
       "firebase.json",
       "**/.*",
