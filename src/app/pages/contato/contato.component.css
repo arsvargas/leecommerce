@@ -1,3 +1,22 @@
 .contato-container{
     margin-top: 90px;
+    justify-content: space-evenly;
+    font-family: 'Open Sans', cursive;
+}
+.contato{
+    background-color: rgb(238, 238, 238);
+    height: 50vh;
+    width: 100%;
+}
+.pt-2{
+    height: 50vh;
+}
+.line{
+    height: 2px;
+}
+h1{
+    font-size: 90px;
+    background-clip: text;
+    color: transparent;
+    padding: 5px;
 }

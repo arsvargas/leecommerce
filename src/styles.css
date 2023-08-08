@@ -84,6 +84,24 @@ button:active{
     background-image: -webkit-linear-gradient(90deg, #9931FF, #44C4F1);
     border-radius: 5px; /* Raio da borda da alça */
 }
+.whats{
+    position: fixed;
+    top: 90vh;
+    right: 3vw;
+    color: #fff;
+    border-radius: 50%;
+    background-color: green;
+    width: 41px;
+    height: 42px;
+    z-index: 5;
+}
+.whats i{ 
+    padding: 0;
+    font-size: 51px;
+}
+.whats:hover{
+    transform: scale(1.2);
+}
 @media screen and (max-width:745px){
     .row{
         flex-direction: column;
