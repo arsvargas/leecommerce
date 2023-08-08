@@ -60,7 +60,6 @@ h2{
     margin-right: 15px;
 }
 .inner a:hover{
-    
     transition: .2s;
     transform: scale(1.1);
     margin-left: 5px;
@@ -126,10 +125,18 @@ a .squad:hover i{
     .inner{
         width: 100%;
     }
+    .inner h4{
+        margin-right: 3px;
+    }
+    .inner a:hover{
+        transform: none;
+        margin: 10px 5px;
+        margin-left: 0px;
+    }
     .bord{
         border: 1px solid #fff;
         border-radius: 10px;
-        margin: 10px;
+        margin: 0px;
         padding: 5px;
     }
 }

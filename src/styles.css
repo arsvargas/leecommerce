@@ -115,4 +115,8 @@ button:active{
     .mobile{
         display: flex;
     }
+    .whats{
+        top: 87vh;
+        right: 4vw;
+    }
 }
